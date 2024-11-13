@@ -62,28 +62,28 @@ pip install azure-ai-language-conversations
 - Update the configuration file with your Azure Language resource's endpoint and key.
 Implement the code to call the Language service model and handle user input.
 - Run the application and test it with various utterances.
-** Example **
-Enter some text ("quit" to stop)
-What time is it?
-view top intent:
-        top intent: GetTime
-        category: GetTime
-        confidence score: 1
+## Example
+- Enter some text ("quit" to stop)
+-- What time is it?
+-- view top intent:
+        - top intent: GetTime
+        - category: GetTime
+        - confidence score: 1
 
-view entities:
-query: What time is it?
-23:48
+-- view entities:
+-- query: What time is it?
+-- 23:48
 
-Enter some text ("quit" to stop)
-What's the date?
-view top intent:
-        top intent: GetDate
-        category: GetDate
-        confidence score: 0.9734405
+- Enter some text ("quit" to stop)
+-- What's the date?
+-- view top intent:
+        -- top intent: GetDate
+        -- category: GetDate
+        -- confidence score: 0.9734405
 
-view entities:
-query: What's the date?
-11/10/2024
+-- view entities:
+-- query: What's the date?
+-- 11/10/2024
 
-Enter some text ("quit" to stop)
-quit
+- Enter some text ("quit" to stop)
+- quit
